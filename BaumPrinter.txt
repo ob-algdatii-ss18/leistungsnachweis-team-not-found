@@ -1,0 +1,24 @@
+Zwischenstand 07.05.18
+Präsentatiion 18.06.18
+
+Wie bindet man eine Bibliothek ein bzw schreibt eine?
+JSON Objekt erzeugen auf Basis des root Knotens.(left / right = namen der Nachfolger)
+
+von c++ zu html (passing the JSON)
+
+
+javascript code der angemessenes Layout für das JSON erzeugt.
+
+Zusatz: Kreiserkennung. (textfeld für Fehlermeldung)
+
+
+<html>
+<head>
+<script type = "text/javascript">
+var tree = JSON;
+STRING
+</script>
+</head>
+<body onload = "function();">
+</body>
+</html>
