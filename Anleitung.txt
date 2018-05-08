@@ -1,0 +1,28 @@
+Before using this make sure you satisfy the following points:
+
+- your code must have a Class Called AVLTree in a folder called AVLTree, that contains a Struct called Node. This Struct needs to have the variables: Node * left and Node * right;
+
+- in case you use different names allready, you have 2 options:
+	1. change your own code to meet the requirements.
+	2. change the treeplotter.h and treeplotter.cpp to fit your names/structure
+
+
+1. Copy the Frontend-Folder to your codes directory and add it to your .gitignore
+
+2. Copy both files from the Backend-Folder into your AVLTree Folder - also add them to your .gitignore
+
+3. In AVLTree.h add "friend class treeplotter;" to the public part.
+
+4. you can now call the methods from the cpp files, passing your tree/root-node to it.(By passing any other node than the root node, you will only get the sub-tree.)
+
+5. To show the tree you need to launch "index.html" (Frontend/projekt/examples/collapsable/index.html)
+
+
+Example usage:
+
+auto tree = new AVLTree();
+tree->insert(4);
+tree->insert(2);
+tree->insert(8);
+auto plotter = new treeplotter();
+plotter->plot(tree);

@@ -1,5 +1,4 @@
-
-    var chart_config = {
+{
         "chart": {
             "container": "#collapsable-example",
 
@@ -16,17 +15,17 @@
             }
         },
         "nodeStructure": {
-            "text": {name: "5"},
+            "text": "5",
             "children": [
                 {
-                    "text": {name: "4"},
+                    "text": "4",
                     "children": [
                         {
-                            "text": {name: "2"},
+                            "text": "2",
 							"children": [
 							{},
 							{
-								"text": {name: "3"},
+								"text": "3",
 								"children": [
 								{},
 								{}
@@ -38,13 +37,13 @@
                     ]
                 },
                 {
-                    "text": {name: "9"},
+                    "text": "9",
                     "children": [
                         {
-                            "text": {name: "7"},
+                            "text": "7",
 							"children": [
 							{
-								"text": {name: "6"},
+								"text": "6",
 								"children": [
 								{},
 								{}
@@ -54,17 +53,17 @@
 							]
 						},
 						{
-							"text": {name: "11"},
+							"text": "11",
 							"children": [
 							{
-								"text": {name: "10"},
+								"text": "10",
 								"children": [
 								{},
 								{}
 								]
 							},
 							{
-								"text": {name: "12"},
+								"text": "12",
 								"children": [
 								{},
 								{}
