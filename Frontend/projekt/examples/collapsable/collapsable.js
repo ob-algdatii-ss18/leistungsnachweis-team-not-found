@@ -16,17 +16,17 @@
             }
         },
         "nodeStructure": {
-            "text": {name: "5"},
+            "text": {name: "5", balance: "0"},
             "children": [
                 {
-                    "text": {name: "4"},
+                    "text": {name: "4", balance: "-2"},
                     "children": [
                         {
-                            "text": {name: "2"},
+                            "text": {name: "2", balance: "1"},
 							"children": [
 							{},
 							{
-								"text": {name: "3"},
+								"text": {name: "3", balance: "0"},
 								"children": [
 								{},
 								{}
@@ -38,13 +38,13 @@
                     ]
                 },
                 {
-                    "text": {name: "9"},
+                    "text": {name: "9", balance: "0"},
                     "children": [
                         {
-                            "text": {name: "7"},
+                            "text": {name: "7", balance: "-1"},
 							"children": [
 							{
-								"text": {name: "6"},
+								"text": {name: "6", balance: "0"},
 								"children": [
 								{},
 								{}
@@ -54,17 +54,17 @@
 							]
 						},
 						{
-							"text": {name: "11"},
+							"text": {name: "11", balance: "0"},
 							"children": [
 							{
-								"text": {name: "10"},
+								"text": {name: "10", balance: "0"},
 								"children": [
 								{},
 								{}
 								]
 							},
 							{
-								"text": {name: "12"},
+								"text": {name: "12", balance: "0"},
 								"children": [
 								{},
 								{}

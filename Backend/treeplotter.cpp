@@ -34,7 +34,7 @@ void treeplotter::plot(AVLTree::Node *root, string path, string filename){
 
 
 string treeplotter::getJSON_data(AVLTree::Node *node){
-    string json_data = "{ text: {name:\"" + std::to_string(node->key) + "\"}, children: [";
+    string json_data = "{ text: {name:\"" + std::to_string(node->key) + "\" , balance:\"" + std::to_string(node->balance) + "}, children: [";
     if(node->left == nullptr){
         json_data += "{},";
     }else{
