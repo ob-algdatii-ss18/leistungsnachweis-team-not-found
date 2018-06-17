@@ -13,9 +13,16 @@ Before using this make sure you satisfy the following points:
 
 3. In AVLTree.h add "friend class treeplotter;" to the public part.
 
-4. you can now call the methods from the cpp files, passing your tree/root-node to it.(By passing any other node than the root node, you will only get the sub-tree.)
+4. In your test folder is a CMakeList.txt file with a addExecutable(....) method - add both files there. It could look like the following:
+add_executable(testAVLTree ${SRCS} ../AVLTree/AVLTree.h ../AVLTree/AVLTree.cpp ../AVLTree/treeplotter.h ../AVLTree/treeplotter.cpp)
 
-5. To show the tree you need to launch "index.html" (Frontend/projekt/examples/collapsable/index.html)
+5. in your main.cpp in the test folder the files need to be included like:
+#include "AVLTree/AVLTree.h"
+#include "AVLTree/treeplotter.h"
+
+5. you can now call the methods from the cpp files, passing your tree/root-node to it.(By passing any other node than the root node, you will only get the sub-tree.)
+
+6. To show the tree you need to launch "index.html" (Frontend/projekt/examples/collapsable/index.html)
 
 
 Example usage:
