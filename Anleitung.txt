@@ -36,3 +36,6 @@ tree->insert(2);
 tree->insert(8);
 auto plotter = new treeplotter();
 plotter->plot(tree);
+
+NOTE:
+when running on linux u might have troubles caused by the writeJSON method. compiling it g++ worked for us if "using namespace std" is inserted right after main opening bracket.
