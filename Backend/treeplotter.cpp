@@ -100,8 +100,10 @@ void treeplotter::writeJSON(string json){
         cout << endl << endl <<  dir.substr(0,dir.length()-ending.length()) << endl << dir;
     }
     string new_dir = dir.substr(0,dir.length()-ending.length());
+
+    //
     ofstream f;
-    f.open("..\\..\\Frontend\\projekt\\examples\\collapsable\\collapsable.js", ios::out | ios::trunc);
+    f.open("../../Frontend/projekt/examples/collapsable/collapsable.js", ios::out | ios::trunc);
     f << json;
     f.close();
 }

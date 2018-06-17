@@ -1,6 +1,9 @@
 Before using this make sure you satisfy the following points:
 
-- your code must have a Class Called AVLTree in a folder called AVLTree, that contains a Struct called Node. This Struct needs to have the variables: Node * left and Node * right;
+- your code must have a Class Called AVLTree in a folder called AVLTree, that contains a Struct called Node. This Struct needs to have the variables: 
+Node * left;
+Node * right;
+int balance; (double should be fine, too)
 
 - in case you use different names allready, you have 2 options:
 	1. change your own code to meet the requirements.
